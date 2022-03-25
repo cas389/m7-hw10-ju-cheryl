@@ -8,6 +8,7 @@ var textarea = document.querySelector('textarea')
 // Then apply them to elements on the page
 // YOUR CODE HERE
 
+
 formEl.onsubmit = function(e) {
   // prevents form submission
   e.preventDefault()
@@ -23,6 +24,9 @@ clear.onclick = function() {
   // Clear textarea's value
   // Clear localstorage's content
   // YOUR CODE HERE
+
+  textarea.value = " ";
+
 
   // triggers thumbs up animation
   this.classList.add('emoji')
