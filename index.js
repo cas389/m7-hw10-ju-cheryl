@@ -8,8 +8,9 @@ var textarea = document.querySelector('textarea')
 // Then apply them to elements on the page
 // YOUR CODE HERE
 
-document.cookie = nameSpan;
-console.log(nameSpan)
+textarea.value = localStorage.getItem('yourTextarea');
+
+
 
 
 formEl.onsubmit = function(e) {
@@ -18,6 +19,15 @@ formEl.onsubmit = function(e) {
   // save name element's content to cookies
   // save textarea's content to localstorage
   // YOUR CODE HERE
+
+
+/*
+document.cookie = "nameSpan=Your Name";
+*/
+
+
+
+	localStorage.setItem('yourTextarea', textarea.value);
 
 
 
