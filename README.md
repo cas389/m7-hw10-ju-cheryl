@@ -7,3 +7,5 @@ Assignment 10 - Cookies for MMC6278 class
 ## Outside Resources
 
 How to clear a textarea in Javascript: https://bobbyhadz.com/blog/javascript-clear-textarea-value
+
+How to clear localStorage: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
