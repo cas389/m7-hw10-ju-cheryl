@@ -11,6 +11,12 @@ var textarea = document.querySelector('textarea')
 textarea.value = localStorage.getItem('yourTextarea');
 
 
+personsName = document.cookie;
+if (personsName) {
+    nameSpan.textContent = personsName.split('=');
+}
+
+
 
 
 formEl.onsubmit = function(e) {
@@ -19,19 +25,8 @@ formEl.onsubmit = function(e) {
   // save name element's content to cookies
   // save textarea's content to localstorage
   // YOUR CODE HERE
-
-
-/*
-document.cookie = "nameSpan=Your Name";
-*/
-
-
-
+  document.cookie = nameSpan.textContent;
 	localStorage.setItem('yourTextarea', textarea.value);
-
-
-
-
 
   // triggers thumbs up animation
   this.elements.save.classList.add('emoji')

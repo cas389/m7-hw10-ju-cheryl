@@ -13,3 +13,5 @@ How to clear a textarea in Javascript: https://bobbyhadz.com/blog/javascript-cle
 How to clear localStorage: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
 
 I used this codepen as a reference for localStorage help: https://codepen.io/mmousawy/pen/LedZPa
+
+I used W3 Schools with help with split for the cookies: https://www.w3schools.com/jsref/jsref_split.asp
